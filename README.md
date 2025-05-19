@@ -57,7 +57,7 @@ use excel
 ![table1](table1.png)
 
 use python matplotlib
-![table2](IoT table.png)
+![table2](table2.png)
 
 ---
 ## Source code
