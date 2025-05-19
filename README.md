@@ -42,18 +42,21 @@ Due to sketch size limitations, the advanced features were implemented in two se
 ## Result
 
 ### photo & videos of the experiment
-[Assignment07](7.png)
+![Assignment07](7.png)
+
 LED blinks
 (https://youtube.com/shorts/4TM877-_Y5A?feature=share)
 (https://youtube.com/shorts/62eikbrYEug?feature=share)
+
 Web Server shows distance
 (https://youtu.be/rF1EMM_WAkM)
 
 ### Table and bar chart of results
+
 use excel
-[table1](table1.png)
+![table1](table1.png)
 use python matplotlib
-[table2](IoT table.png)
+![table2](IoT table.png)
 ---
 ## Source code
 
