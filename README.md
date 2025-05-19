@@ -29,7 +29,7 @@ RSSI: Received Signal Strength Indicator from BLE advertisement
 - Receives RSSI values and calculates distance
 - Displays results in the **Serial Monitor**
 
-#### Advanced Versions (Bonus +10 points)
+#### Advanced Versions
 > Due to **ESP32 sketch size limitations**, the advanced features were implemented in **two separate client codes**:
 
 | File                 | Features                                                 |
