@@ -17,21 +17,20 @@ n: Path-loss exponent (typically 2.0)
 RSSI: Received Signal Strength Indicator from BLE advertisement
 
 ## System Components
-- BLE Server
-Device name: "DHT_ESP32"
-Continuously advertises for discovery
-No characteristics – only used for broadcasting presence
 
-- BLE Client
--> Base Version
-Scans for "DHT_ESP32"
+### BLE Server
+- **Device Name**: `"DHT_ESP32"`
+- Performs **only advertising** without any services or characteristics
 
-Reads RSSI and calculates distance
+### BLE Client
 
-Prints distance to Serial Monitor
+#### Basic Version
+- Scans for the `"DHT_ESP32"` device
+- Receives RSSI values and calculates distance
+- Displays results in the **Serial Monitor**
 
--> Advanced Versions (Extra Credit)
-Due to sketch size limitations, the advanced features were implemented in two separate sketches:
+#### Advanced Versions (Bonus +10 points)
+> Due to **ESP32 sketch size limitations**, the advanced features were implemented in **two separate client codes**:
 
 | File                 | Features                                                 |
 | -------------------- | -------------------------------------------------------- |
